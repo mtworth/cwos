@@ -4,7 +4,7 @@ _**commentworks**_ is a small language model and python utility for local, priva
 
 ## Motivations 
 
-Data analysts face a growing volume of open-ended information rich responses, but much of this information remains hard to process at scale. While large language models have transformed text analysis, they often pose privacy, cost, and governance challenges, especially for public-sector and community organizations handling sensitive feedback.
+Data analysts face a growing volume of open-ended information rich responses (surveys, product reviews, ticket comments, etc.), but much of this information remains hard to process at scale. While large language models have transformed text analysis, they often pose privacy, cost, and governance challenges, especially for public-sector and community organizations handling sensitive feedback.
 _commentworks_ is an attempt to investigate how small, local language models can fill this gap, helping teams extract themes and insights without sending data to third parties. 
 
 ## Features

@@ -10,9 +10,9 @@ _commentworks_ is an attempt to investigate how small, local language models can
 ## Features
 
 - **100% Local & Private** - Your data never leaves your machine
-- **Lightweight** - 500MB model, runs on CPU. No need for a fancy GPU. 
-- **Simple API** - Two functions: `detect_themes()` and `assign_themes()`. 
-- **DataFrame Friendly** - Works with pandas or plain Python lists.
+- **Lightweight** - 500MB model, runs on CPU. No need for a fancy GPU.
+- **Simple API** - Initialize once, use many times with `detect_themes()` and `assign_themes()`
+- **DataFrame Friendly** - Works with pandas or plain Python lists
 
 _Please note that commentworks is an early stage experimental language model project. It is not recommended for use at scale in production pipelines._
 
@@ -29,14 +29,17 @@ pip install git+https://github.com/mtworth/cwos.git
 ```python
 import commentworks as cw
 
+# Initialize model (downloads automatically on first use)
+model = cw.commentworks()
+
 # Detect themes across comments
 reviews = ["Great food but slow service", "Loved the ambiance, pricey though"]
-themes = cw.detect_themes(reviews)
+themes = model.detect_themes(reviews)
 # Returns: ['food quality', 'service speed', 'ambiance', 'pricing']
 
 # Assign themes to comments
 comment = "Amazing food but too expensive"
-assigned = cw.assign_themes(comment, possible_themes=["food quality", "service", "pricing"])
+assigned = model.assign_themes(comment, possible_themes=["food quality", "service", "pricing"])
 # Returns: ['food quality', 'pricing']
 ```
 

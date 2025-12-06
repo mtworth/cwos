@@ -1,0 +1,21 @@
+review_id,category,review_text,rating
+1,restaurant,"The pasta was perfectly cooked and the sauce was incredible. However, we waited nearly 40 minutes for our appetizers.",4
+2,product,"Battery life is amazing, easily lasts two days. The camera quality in low light could be better though.",4
+3,restaurant,"Our waiter was attentive and gave great wine recommendations. The ambiance was romantic and cozy.",5
+4,product,"Packaging was damaged when it arrived. The product itself works fine but first impressions matter.",3
+5,restaurant,"Food was cold when it arrived at our table. Manager comped our meal and apologized profusely.",2
+6,product,"Best purchase I've made this year! Intuitive interface and does exactly what I need.",5
+7,restaurant,"Portions are huge, great value for money. The decor is a bit dated but who cares when the food is this good.",4
+8,product,"Instructions were confusing and missing steps. Had to watch YouTube videos to figure out assembly.",2
+9,restaurant,"Reservation system is a nightmare, tried calling for three days. Once we got in, the food was just okay.",3
+10,product,"Works as advertised but feels cheap. Not sure it will last more than a year.",3
+11,restaurant,"The chef came out to ask about allergies personally. Best gluten-free pasta I've ever had!",5
+12,product,"Customer service was helpful when I had questions. Shipping was fast, arrived in two days.",4
+13,restaurant,"Too loud, couldn't have a conversation. Menu has great variety though.",3
+14,product,"Stopped working after three weeks. Warranty process was smooth and they sent a replacement quickly.",3
+15,restaurant,"Hidden fees on the bill for things that should be included. Food was fine but felt nickel-and-dimed.",2
+16,product,"Exactly as described in photos. Color is vibrant and material quality exceeds expectations.",5
+17,restaurant,"They remembered it was my birthday without me mentioning it. Complimentary dessert was a nice touch.",5
+18,product,"App keeps crashing on my phone. The hardware is great but software needs serious work.",2
+19,restaurant,"Vegan options are limited and seemed like an afterthought. Server wasn't knowledgeable about ingredients.",2
+20,product,"Good value for the price point. Not premium quality but does the job for everyday use.",4

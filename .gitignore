@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# CommentWorks specific
+# Keep example reviews.csv but ignore generated output
+examples/reviews_with_themes.csv
+
+# HuggingFace model cache
+models/
+*.bin
+*.safetensors

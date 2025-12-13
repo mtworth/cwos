@@ -63,10 +63,12 @@ _commentworks_ is in active development. Upcoming features we hope to get to:
 
 - **Model Evaluations** - Benchmark performance on real-world comment datasets
 - **Training Dataset Release** - Open-source synthetic training data
-- **WebLLM GUI** - Browser-based interface for non-technical users
+- **Streamlit demo** -- a simple GUI demo just so folks can understand speed and quality on test datasets 
 - **New Tasks:**
-  - Sentiment detection (positive/negative/neutral)
+  - Sentiment (positive/negative/neutral)
   - Aspect-based topic modeling
+  - Lexicon normalization? (clean-up some messy spellings) 
+  - Single select tagging
 - **Smart Sampling** - Improved algorithms for theme detection on large datasets. We currently recommend using a random sample for large datasets for theme detection, but hope to work on embedding based topic clustering for smarter sampling. 
 
 ## Requirements

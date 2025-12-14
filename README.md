@@ -61,6 +61,9 @@ The model downloads automatically on first use from HuggingFace and caches local
 
 _commentworks_ is in active development. Upcoming features we hope to get to:
 
+- **Function Clarity** -- Reframe theme detection as a hypothesis, rather than true detection.
+- **Tag Robustness Analysis** -- Each comment gets tagged my mulitiple prompts, showing range of certainty within the model.
+- **Smart Sampling** - Improved algorithms for theme detection on large datasets. We currently recommend using a random sample for large datasets for theme detection, but hope to work on embedding based topic clustering for smarter sampling. 
 - **Model Evaluations** - Benchmark performance on real-world comment datasets
 - **Training Dataset Release** - Open-source synthetic training data
 - **Streamlit demo** -- a simple GUI demo just so folks can understand speed and quality on test datasets 
@@ -69,7 +72,6 @@ _commentworks_ is in active development. Upcoming features we hope to get to:
   - Aspect-based topic modeling
   - Lexicon normalization? (clean-up some messy spellings) 
   - Single select tagging
-- **Smart Sampling** - Improved algorithms for theme detection on large datasets. We currently recommend using a random sample for large datasets for theme detection, but hope to work on embedding based topic clustering for smarter sampling. 
 
 ## Requirements
 

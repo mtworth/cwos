@@ -24,6 +24,12 @@ dependencies = [
     "torch>=2.0.0",
 ]
 
+[project.optional-dependencies]
+app = [
+    "pandas>=1.5.0",
+    "streamlit>=1.30.0",
+]
+
 [project.urls]
-Homepage = "https://github.com/[username]/commentworks"
-Issues = "https://github.com/[username]/commentworks/issues"
+Homepage = "https://github.com/mtworth/cwos"
+Issues = "https://github.com/mtworth/cwos/issues"
